@@ -4,8 +4,8 @@ import TeamCard from "./TeamCard";
 
 function TeamSection() {
   return (
-    <section id="team" className="bg-[#ffe4e1] pb-12 pt-8">
-      <SectionTitle title="TEAM" boxColor="#ff8686" lineColor="#000" />
+    <section id="team" className="bg-primary pb-12 pt-8">
+      <SectionTitle title="TEAM" boxColor="#ffe4e1" lineColor="#000" />
       <div className="grid grid-cols-1 md:grid-cols-3 px-12 md:px-24">
         <TeamCard
           name="Vrinda Rastogi"

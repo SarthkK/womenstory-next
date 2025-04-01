@@ -19,9 +19,9 @@ function Navbar() {
       <Link className="hover:text-primary" href="/#about">
         ABOUT US
       </Link>
-      <Link className="hover:text-primary" href="/#achievements">
+      {/* <Link className="hover:text-primary" href="/#achievements">
         ACHIEVEMENTS
-      </Link>
+      </Link> */}
       <Link className="hover:text-primary" href="/#services">
         WHAT WE DO
       </Link>
@@ -31,12 +31,11 @@ function Navbar() {
       <Link className="hover:text-primary" href="/#team">
         TEAM
       </Link>
-      <Link className="hover:text-primary" href="/#contact">
-        CONTACT US
-      </Link>
-
       <Link className="hover:text-primary" href={"/agahi"}>
         AGAHI
+      </Link>
+      <Link className="hover:text-primary" href="/#contact">
+        CONTACT US
       </Link>
     </div>
   );

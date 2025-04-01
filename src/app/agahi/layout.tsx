@@ -15,7 +15,6 @@ export default function layout({
     <div className={`bg-primary text-black ${dmSerif.className} antialiased`}>
       <Navbar />
       {children}
-      <FooterSection />
     </div>
   );
 }

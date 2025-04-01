@@ -37,9 +37,8 @@ function AboutUsInfo() {
           about bringing tangible changes in women&apos;s lives everywhere.
         </p>
         <p
-          ref={ref2}
           className={`mb-4 w-3/4 transition-opacity duration-1000 delay-100 ${
-            inView2 ? "opacity-100 animate-fadeUp" : "opacity-0"
+            inView1 ? "opacity-100 animate-fadeUp" : "opacity-0"
           }`}
         >
           At The.Women.Story, we are dedicated to ensuring that women&apos;s
@@ -50,9 +49,8 @@ function AboutUsInfo() {
           the same.
         </p>
         <p
-          ref={ref3}
           className={`mb-4 w-3/4 transition-opacity duration-700 delay-200 ${
-            inView3 ? "opacity-100 animate-fadeUp" : "opacity-0"
+            inView1 ? "opacity-100 animate-fadeUp" : "opacity-0"
           }`}
         >
           Through workshops, events, and community engagements, we aim to bring
@@ -73,17 +71,17 @@ function AboutUsInfo() {
         <div className="flex gap-5 items-center">
           <Image
             className="transition duration-300 transform hover:scale-110"
-            src="/aboutus/1.jpeg"
+            src="/aboutus/1.jpg"
             alt="About Image 1"
             width={246}
             height={310}
           />
           <Image
-            className="transition duration-300 transform hover:scale-110 h-[271px]"
+            className="transition duration-300 transform hover:scale-110"
             src="/aboutus/2.jpeg"
             alt="About Image 2"
-            width={361}
-            height={271}
+            width={246}
+            height={280}
           />
         </div>
         <Image

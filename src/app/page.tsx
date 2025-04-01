@@ -19,7 +19,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <AboutUs />
-      <AchievementSection />
+      {/* <AchievementSection /> */}
       <WhatSection />
       <InitiativesSection />
       <TeamSection />

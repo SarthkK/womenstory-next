@@ -31,8 +31,8 @@ function HeroSection() {
             <h1 className="text-4xl py-4 md:text-6xl font-bold mb-4 text-black">
               The.<span className="text-black">Women</span>.Story
             </h1>
-            <div className="text-xl text-[#dddddd] mb-6">
-              <p>
+            <div className="text-xl text-white mb-6">
+              <p className=" [text-shadow:_0_1px_8px_rgb(0_0_0_/_0.8)] ">
                 A hope to make women-related issues more inclusive, as social
                 changes do not happen in isolation.
               </p>

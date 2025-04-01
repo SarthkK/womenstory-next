@@ -44,7 +44,7 @@ function AboutUsCarousel() {
           <div className="flex-[0_0_100%] p-2">
             <Image
               className=""
-              src="/aboutus/1.jpeg"
+              src="/aboutus/1.jpg"
               alt="About Image 1"
               width={340}
               height={400}
