@@ -12,14 +12,6 @@ function AboutUsInfo() {
     triggerOnce: true,
     threshold: 0.2,
   });
-  const { ref: ref2, inView: inView2 } = useInView({
-    triggerOnce: true,
-    threshold: 0.7,
-  });
-  const { ref: ref3, inView: inView3 } = useInView({
-    triggerOnce: true,
-    threshold: 0.7,
-  });
 
   return (
     <div className="flex flex-col md:flex-row">

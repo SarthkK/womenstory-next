@@ -2,7 +2,6 @@ import { DM_Serif_Display } from "next/font/google";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import AboutUs from "../components/Aboutus/AboutSection";
-import AchievementSection from "../components/Achievement/AchievementSection";
 import WhatSection from "../components/WhatWeDo/WhatSection";
 import InitiativesSection from "../components/Initiatives/InitiativesSection";
 import TeamSection from "../components/TeamSection";

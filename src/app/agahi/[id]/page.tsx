@@ -1,6 +1,5 @@
-import { blogs } from "@/lib/blogs";
+// import { blogs } from "@/lib/blogs";
 import Image from "next/image";
-import { useParams } from "next/navigation";
 import React from "react";
 
 interface PageProps {

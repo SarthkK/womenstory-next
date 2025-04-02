@@ -1,4 +1,3 @@
-import FooterSection from "@/components/FooterSection";
 import Navbar from "@/components/Navbar";
 import { DM_Serif_Display } from "next/font/google";
 import { JSX } from "react";
